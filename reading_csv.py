@@ -32,7 +32,7 @@ for row in people:
     print(row)
 
 """ACHIEVEMENT
-- locate a csv fiel
+- locate a csv file
 - open the csv file using the with open keywords stating the filename
 and directory if it is not located in the working directory of the project
 by default the mode is the read mode and does not need to be stated
