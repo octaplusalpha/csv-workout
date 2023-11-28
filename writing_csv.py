@@ -3,7 +3,7 @@ import csv
 """WRITING TO  CSV"""
 # create the fields for the data
 fields = ["First Name", "Last Name", "Program", "Duration (months)"]
-
+filename = 'dict_students.csv'
 # setting values for the number of individuals in the record
 records = [
     ["Festus", "Friday", "Computer basics", 6],
