@@ -12,7 +12,6 @@ with open(filename) as file:
         writer = csv.DictWriter(f, fieldnames=fields, lineterminator='\n')
         writer.writeheader()
         for row in data:
-            print(row)
             if row['First Name'] == 'Bestlife':
                 row['Duration (months)'] = 2
             writer.writerow(row)
@@ -23,9 +22,11 @@ The logic for this is;
  -to first open the file in read mode
 -save the content in a variable of type list
 -create another file for the updated record
--using the write mode and stating the header
-- in the for loop that writes each row to the file use a for loop
-to check the value to be updated and state the new value for the 
+-using the write mode and stating the header row
+- in the for loop that writes each row to the file
+ check the value to be updated and state the new value for the 
 key;
 write the rows as they are looped to the end.
+if the original file is to be over written use the name of the original 
+file instead of stating a new one 
 """

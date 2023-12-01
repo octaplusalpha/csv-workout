@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\new_students.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\updated_dict_students.csv">
           <value>
             <Attribute>
