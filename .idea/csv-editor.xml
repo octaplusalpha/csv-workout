@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\computer_students_only.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dict_students.csv">
           <value>
             <Attribute>
